@@ -1,0 +1,27 @@
+{
+  "name": "Getting Started Example",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "permissions": ["activeTab","declarativeContent","storage"], //확장프로그램 storage api를 사용하기위한 권한 등록 명령
+  "background":{  //백그라운드스크립트 등록 명령어(https://developer.chrome.com/extensions/background_pages)
+    "scripts": ["background.js"],
+    "persistent":false
+  },
+  "page_action":{ //아이콘을 주소표시줄 오른쪽 기본 chrome툴바에 넣어주는 명령어 (https://developer.chrome.com/extensions/pageAction)
+    "default_popup": "popup.html",
+    "default_icon":{  //툴바 지정 아이콘 설정 명령어
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+  },
+  "icons":{ //툴바이외 아이콘 표시를 위해 쓰는 명령어 (https://developer.chrome.com/extensions/user_interface#icons)
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "options_page": "options.html", //확장프로그램 세부정보에서 옵션 설정창을 연결해주는 명령어
+  "manifest_version": 2
+}
