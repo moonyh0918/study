@@ -59,3 +59,10 @@
 0:0:0:0:0:0:0:1 - - [03/Oct/2019:15:29:54 +0900] "POST /jsp_study6_formtag/FromEx HTTP/1.1" 200 -
 127.0.0.1 - - [03/Oct/2019:15:44:02 +0900] "GET / HTTP/1.1" 200 11414
 0:0:0:0:0:0:0:1 - - [03/Oct/2019:15:44:11 +0900] "GET /lec08Pjt001/mSignUp?m_name=gdsa&m_pass=w33&m_gender=W&m_hobby=cooking&m_hobby=reading&m_residence=seoul HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2019:17:46:22 +0900] "GET / HTTP/1.1" 200 11414
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:46:23 +0900] "GET /jsp_study7_jspscript/jspScriptTest.jsp HTTP/1.1" 200 164
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:54:48 +0900] "GET /jsp_study7_jspscript/jspScriptTest.jsp HTTP/1.1" 200 201
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:56:53 +0900] "GET /jsp_study7_jspscript/jspScriptTest.jsp HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:57:35 +0900] "GET /jsp_study7_jspscript/jspScriptTest.jsp HTTP/1.1" 200 273
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:18:09:26 +0900] "GET /jsp_study7_jspscript/jspScriptTest.jsp HTTP/1.1" 200 327
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:18:16:06 +0900] "GET /jsp_study7_jspscript/jspScriptTest.jsp HTTP/1.1" 200 327
